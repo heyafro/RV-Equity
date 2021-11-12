@@ -705,7 +705,7 @@ contract Name is Context, IERC20, Ownable {
     uint256 public _liquidityFee = 4;
     uint256 private _previousLiquidityFee = _liquidityFee;
 
-    uint256 public _burnFee = 7;
+    uint256 public _burnFee = 8;
     uint256 private _previousBurnFee = _burnFee;
 
     uint256 public _charityFee = 1;
